@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F72F9B622990903000CE73DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72F9B5E2990903000CE73DC /* Main.storyboard */; };
+		F72F9B632990903000CE73DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72F9B602990903000CE73DC /* LaunchScreen.storyboard */; };
+		F72F9B68299091AF00CE73DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72F9B67299091AF00CE73DC /* ViewController.swift */; };
 		F7E3962C2990815D000E08E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3962B2990815D000E08E9 /* AppDelegate.swift */; };
 		F7E3962E2990815D000E08E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3962D2990815D000E08E9 /* SceneDelegate.swift */; };
-		F7E396302990815D000E08E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3962F2990815D000E08E9 /* ViewController.swift */; };
-		F7E396332990815D000E08E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E396312990815D000E08E9 /* Main.storyboard */; };
 		F7E396352990815F000E08E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E396342990815F000E08E9 /* Assets.xcassets */; };
-		F7E396382990815F000E08E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E396362990815F000E08E9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F72F9B5F2990903000CE73DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F72F9B612990903000CE73DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F72F9B642990907600CE73DC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F72F9B67299091AF00CE73DC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F7E396282990815D000E08E9 /* HWS-P2-Country-Flag-Game-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HWS-P2-Country-Flag-Game-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E3962B2990815D000E08E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7E3962D2990815D000E08E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F7E3962F2990815D000E08E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F7E396322990815D000E08E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7E396342990815F000E08E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F7E396372990815F000E08E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F7E396392990815F000E08E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +37,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F72F9B69299092B400CE73DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F72F9B5E2990903000CE73DC /* Main.storyboard */,
+				F72F9B602990903000CE73DC /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F72F9B6A299092C200CE73DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F72F9B67299091AF00CE73DC /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F72F9B6B299092CD00CE73DC /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				F7E3962B2990815D000E08E9 /* AppDelegate.swift */,
+				F7E3962D2990815D000E08E9 /* SceneDelegate.swift */,
+				F7E396342990815F000E08E9 /* Assets.xcassets */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
 		F7E3961F2990815D000E08E9 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +83,10 @@
 		F7E3962A2990815D000E08E9 /* HWS-P2-Country-Flag-Game-App */ = {
 			isa = PBXGroup;
 			children = (
-				F7E3962B2990815D000E08E9 /* AppDelegate.swift */,
-				F7E3962D2990815D000E08E9 /* SceneDelegate.swift */,
-				F7E3962F2990815D000E08E9 /* ViewController.swift */,
-				F7E396312990815D000E08E9 /* Main.storyboard */,
-				F7E396342990815F000E08E9 /* Assets.xcassets */,
-				F7E396362990815F000E08E9 /* LaunchScreen.storyboard */,
-				F7E396392990815F000E08E9 /* Info.plist */,
+				F72F9B6A299092C200CE73DC /* Controller */,
+				F72F9B69299092B400CE73DC /* View */,
+				F72F9B6B299092CD00CE73DC /* Supporting */,
+				F72F9B642990907600CE73DC /* Info.plist */,
 			);
 			path = "HWS-P2-Country-Flag-Game-App";
 			sourceTree = "<group>";
@@ -125,9 +149,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7E396382990815F000E08E9 /* LaunchScreen.storyboard in Resources */,
+				F72F9B632990903000CE73DC /* LaunchScreen.storyboard in Resources */,
 				F7E396352990815F000E08E9 /* Assets.xcassets in Resources */,
-				F7E396332990815D000E08E9 /* Main.storyboard in Resources */,
+				F72F9B622990903000CE73DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7E396302990815D000E08E9 /* ViewController.swift in Sources */,
+				F72F9B68299091AF00CE73DC /* ViewController.swift in Sources */,
 				F7E3962C2990815D000E08E9 /* AppDelegate.swift in Sources */,
 				F7E3962E2990815D000E08E9 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,18 +171,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F7E396312990815D000E08E9 /* Main.storyboard */ = {
+		F72F9B5E2990903000CE73DC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F7E396322990815D000E08E9 /* Base */,
+				F72F9B5F2990903000CE73DC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F7E396362990815F000E08E9 /* LaunchScreen.storyboard */ = {
+		F72F9B602990903000CE73DC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F7E396372990815F000E08E9 /* Base */,
+				F72F9B612990903000CE73DC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -318,6 +342,7 @@
 				INFOPLIST_FILE = "HWS-P2-Country-Flag-Game-App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				"INFOPLIST_KEY_UILaunchStoryboardName[sdk=*]" = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
